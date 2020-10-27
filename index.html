@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--links do bootstrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/estilo.css">
+    <title>bootstrap</title>
+    <!--/links do bootstrap-->
+</head>
+<body>
+    <!--barra de navegação-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <img src="img/black.png" alt="Black Panther"  width="250px" height="150px">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Alterna navegação">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+            <a class="nav-link" href="#" >Home <span class="sr-only">(Página atual)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Sobre Nós</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Vídeos</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Redes Sociais
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="#">Facebook</a>
+                <a class="dropdown-item" href="#">Youtube</a>
+                <a class="dropdown-item" href="#">LinkedIn</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <!--/barra de navegação-->
+      <!--exibição de texto-->
+      <div class="jumbotron">
+        <h1 class="display-4">Seja Bem vindo!</h1>
+        <p class="lead">Aqui você encontra toda a história, sobre o filme de grande sucesso nos cinemas.</p>
+        <hr class="my-4">
+        <p>O astro de pantera negra foi, um heroí dentro e fora das telas e inspirou muitos jovens.</p>
+        <a class="btn btn-dark btn-lg" href="#" role="button">Leia mais</a>
+      </div>
+      <!--/exibição de texto-->
+      <!--exibição de imagens com formato carrossel-->
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="img/slide1.png" alt="Primeiro Slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="img/slide2.jpeg" alt="Segundo Slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="img/slide3.png" alt="Terceiro Slide">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Anterior</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Próximo</span>
+        </a>
+      </div>
+      <!--/exibição de imagens com formato carrossel-->
+      <!--Cards de conteúdo-->
+      <div class="row mt-5 mb-5">
+        <div class="col-sm-6">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Conheça mais sobre o ator</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores corporis maxime ex debitis quisquam blanditiis unde enim, dolor iure sunt porro nisi quod libero dicta totam odit rem assumenda? Cumque?.</p>
+              <a href="#" class="btn btn-primary">Visitar</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Próximos filmes</h5>
+              <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae aliquid omnis quibusdam accusantium asperiores! Doloribus iste voluptates eius illum necessitatibus sapiente animi, possimus eaque odit nam quibusdam veniam ex illo..</p>
+              <a href="#" class="btn btn-primary">Visitar</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--/Cards de conteúdo-->
+     <!--Formulário-->
+     <div class="row">
+   <div class="col-md-12">
+    <h1 class="text-center">Fale Conosco</h1>
+   </div>
+ </div>
+<div class="row">
+<div class="col-md-6">
+    <form>
+        <div class="form-group">
+            
+          <label for="exampleInputEmail1">Endereço de email</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Seu email">
+          <small id="emailHelp" class="form-text text-muted">Nunca vamos compartilhar seu email, com ninguém.</small>
+        </div>
+        <div class="form-group">
+            <label for="exampleFormControlTextarea1">Mande sua Mensagem</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          </div>
+        </form>
+        <div class="form-group form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck1">Gostaria de Receber nossos emails?</label>
+        </div>
+        <button type="submit" class="btn btn-primary">Enviar</button>
+      </form>
+     
+   </div>
+       <!--/Formulário-->
+
+      <!--Iframe do mapa-->
+     <div class="col-md-6s">
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3659.2213906552533!2d-46.65193488538586!3d-23.488533964791227!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cef7be565a44bb%3A0x6cbe91c013dfc2c4!2sAv.%20Eng.%20Caetano%20%C3%81lvares%2C%20S%C3%A3o%20Paulo%20-%20SP!5e0!3m2!1spt-BR!2sbr!4v1603758492119!5m2!1spt-BR!2sbr"
+         width="600"
+         height="450"
+         frameborder="0" 
+         style="border:0;" 
+         allowfullscreen="" 
+        ria-hidden="false" tabindex="0"></iframe>
+     </div>
+    </div>
+    <!--/Iframe do mapa-->
+
+  <!--Rodapé -->
+  <div>
+  <footer>
+    <div class="container">
+
+        <a href="https://pt-br.facebook.com/" target="_blank">
+        <img class="tamanho" src="img/facebook.png" alt="icone do facebook">
+       </a>
+        <a href="https://www.linkedin.com/home"target="_blank">
+           <img class="tamanho" src="img/linkedin.png" alt="icone do linkedin">
+
+       </a>
+        <a href="https://web.whatsapp.com/"target="_blank">
+           <img class="tamanho" src="img/whatsapp.png" alt="icone do whatsapp">
+       </a>
+    <p class="container">
+       Todos os direitos reservados: Wakanda Forever &copy;
+    </p>
+ </div>
+</footer>
+</div>
+  <!--/Rodapé -->
+</body>
+</html>
